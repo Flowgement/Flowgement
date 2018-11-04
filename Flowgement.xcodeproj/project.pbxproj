@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F79092035448BE87C87312 /* Pods_Flowgement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8371C7303863533C7B4AA3C2 /* Pods_Flowgement.framework */; };
+		44D33595218EC2750080ED32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D33594218EC2750080ED32 /* AppDelegate.swift */; };
+		44D33597218EC2750080ED32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D33596218EC2750080ED32 /* ViewController.swift */; };
+		44D3359A218EC2750080ED32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D33598218EC2750080ED32 /* Main.storyboard */; };
+		44D3359D218EC2750080ED32 /* Flowgement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44D3359B218EC2750080ED32 /* Flowgement.xcdatamodeld */; };
+		44D3359F218EC2770080ED32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D3359E218EC2770080ED32 /* Assets.xcassets */; };
+		44D335A2218EC2770080ED32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D335A0218EC2770080ED32 /* LaunchScreen.storyboard */; };
+		44D335AD218EC2770080ED32 /* FlowgementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D335AC218EC2770080ED32 /* FlowgementUITests.swift */; };
+		CE9C70FE3AD473F03BE4E615 /* Pods_FlowgementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AB3CEDB69D316223DEF507 /* Pods_FlowgementUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44D335A9218EC2770080ED32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44D33589218EC2750080ED32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44D33590218EC2750080ED32;
+			remoteInfo = Flowgement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38AB3CEDB69D316223DEF507 /* Pods_FlowgementUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowgementUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D33591218EC2750080ED32 /* Flowgement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flowgement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D33594218EC2750080ED32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44D33596218EC2750080ED32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44D33599218EC2750080ED32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44D3359C218EC2750080ED32 /* Flowgement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flowgement.xcdatamodel; sourceTree = "<group>"; };
+		44D3359E218EC2770080ED32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44D335A1218EC2770080ED32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44D335A3218EC2770080ED32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44D335A8218EC2770080ED32 /* FlowgementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowgementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D335AC218EC2770080ED32 /* FlowgementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowgementUITests.swift; sourceTree = "<group>"; };
+		44D335AE218EC2770080ED32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE8E9244B21D7E159A35E88 /* Pods-Flowgement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flowgement.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flowgement/Pods-Flowgement.release.xcconfig"; sourceTree = "<group>"; };
+		62CF976FE043B79ED0E9954B /* Pods-FlowgementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowgementUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowgementUITests/Pods-FlowgementUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8371C7303863533C7B4AA3C2 /* Pods_Flowgement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flowgement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AD768266BA210E3E6AB9E8 /* Pods-FlowgementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowgementUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowgementUITests/Pods-FlowgementUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE5C837F06B1FFF11C671BD2 /* Pods-Flowgement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flowgement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flowgement/Pods-Flowgement.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44D3358E218EC2750080ED32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F79092035448BE87C87312 /* Pods_Flowgement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D335A5218EC2770080ED32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9C70FE3AD473F03BE4E615 /* Pods_FlowgementUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44D33588218EC2750080ED32 = {
+			isa = PBXGroup;
+			children = (
+				44D33593218EC2750080ED32 /* Flowgement */,
+				44D335AB218EC2770080ED32 /* FlowgementUITests */,
+				44D33592218EC2750080ED32 /* Products */,
+				E976DF0C9DC7E9898330A5A9 /* Pods */,
+				51D7D095A78BA2282E55E5DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44D33592218EC2750080ED32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44D33591218EC2750080ED32 /* Flowgement.app */,
+				44D335A8218EC2770080ED32 /* FlowgementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44D33593218EC2750080ED32 /* Flowgement */ = {
+			isa = PBXGroup;
+			children = (
+				44D33594218EC2750080ED32 /* AppDelegate.swift */,
+				44D33596218EC2750080ED32 /* ViewController.swift */,
+				44D33598218EC2750080ED32 /* Main.storyboard */,
+				44D3359E218EC2770080ED32 /* Assets.xcassets */,
+				44D335A0218EC2770080ED32 /* LaunchScreen.storyboard */,
+				44D335A3218EC2770080ED32 /* Info.plist */,
+				44D3359B218EC2750080ED32 /* Flowgement.xcdatamodeld */,
+			);
+			path = Flowgement;
+			sourceTree = "<group>";
+		};
+		44D335AB218EC2770080ED32 /* FlowgementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44D335AC218EC2770080ED32 /* FlowgementUITests.swift */,
+				44D335AE218EC2770080ED32 /* Info.plist */,
+			);
+			path = FlowgementUITests;
+			sourceTree = "<group>";
+		};
+		51D7D095A78BA2282E55E5DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8371C7303863533C7B4AA3C2 /* Pods_Flowgement.framework */,
+				38AB3CEDB69D316223DEF507 /* Pods_FlowgementUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E976DF0C9DC7E9898330A5A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C837F06B1FFF11C671BD2 /* Pods-Flowgement.debug.xcconfig */,
+				4EE8E9244B21D7E159A35E88 /* Pods-Flowgement.release.xcconfig */,
+				90AD768266BA210E3E6AB9E8 /* Pods-FlowgementUITests.debug.xcconfig */,
+				62CF976FE043B79ED0E9954B /* Pods-FlowgementUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44D33590218EC2750080ED32 /* Flowgement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D335B1218EC2770080ED32 /* Build configuration list for PBXNativeTarget "Flowgement" */;
+			buildPhases = (
+				738239ABDB27464CBF2B9D27 /* [CP] Check Pods Manifest.lock */,
+				44D3358D218EC2750080ED32 /* Sources */,
+				44D3358E218EC2750080ED32 /* Frameworks */,
+				44D3358F218EC2750080ED32 /* Resources */,
+				BDD5D061649ACA8F940EAE98 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flowgement;
+			productName = Flowgement;
+			productReference = 44D33591218EC2750080ED32 /* Flowgement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44D335A7218EC2770080ED32 /* FlowgementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D335B4218EC2770080ED32 /* Build configuration list for PBXNativeTarget "FlowgementUITests" */;
+			buildPhases = (
+				47B900F7F0193CD30B8FC2C5 /* [CP] Check Pods Manifest.lock */,
+				44D335A4218EC2770080ED32 /* Sources */,
+				44D335A5218EC2770080ED32 /* Frameworks */,
+				44D335A6218EC2770080ED32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44D335AA218EC2770080ED32 /* PBXTargetDependency */,
+			);
+			name = FlowgementUITests;
+			productName = FlowgementUITests;
+			productReference = 44D335A8218EC2770080ED32 /* FlowgementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44D33589218EC2750080ED32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = MAT0622;
+				TargetAttributes = {
+					44D33590218EC2750080ED32 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					44D335A7218EC2770080ED32 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 44D33590218EC2750080ED32;
+					};
+				};
+			};
+			buildConfigurationList = 44D3358C218EC2750080ED32 /* Build configuration list for PBXProject "Flowgement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44D33588218EC2750080ED32;
+			productRefGroup = 44D33592218EC2750080ED32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44D33590218EC2750080ED32 /* Flowgement */,
+				44D335A7218EC2770080ED32 /* FlowgementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44D3358F218EC2750080ED32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D335A2218EC2770080ED32 /* LaunchScreen.storyboard in Resources */,
+				44D3359F218EC2770080ED32 /* Assets.xcassets in Resources */,
+				44D3359A218EC2750080ED32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D335A6218EC2770080ED32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47B900F7F0193CD30B8FC2C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlowgementUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		738239ABDB27464CBF2B9D27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flowgement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD5D061649ACA8F940EAE98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Flowgement/Pods-Flowgement-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flowgement/Pods-Flowgement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44D3358D218EC2750080ED32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D3359D218EC2750080ED32 /* Flowgement.xcdatamodeld in Sources */,
+				44D33597218EC2750080ED32 /* ViewController.swift in Sources */,
+				44D33595218EC2750080ED32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D335A4218EC2770080ED32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D335AD218EC2770080ED32 /* FlowgementUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44D335AA218EC2770080ED32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44D33590218EC2750080ED32 /* Flowgement */;
+			targetProxy = 44D335A9218EC2770080ED32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44D33598218EC2750080ED32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D33599218EC2750080ED32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44D335A0218EC2770080ED32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D335A1218EC2770080ED32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44D335AF218EC2770080ED32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44D335B0218EC2770080ED32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44D335B2218EC2770080ED32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5C837F06B1FFF11C671BD2 /* Pods-Flowgement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D762BQ98UP;
+				INFOPLIST_FILE = Flowgement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "matun4645-gmail.com.Flowgement";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44D335B3218EC2770080ED32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE8E9244B21D7E159A35E88 /* Pods-Flowgement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D762BQ98UP;
+				INFOPLIST_FILE = Flowgement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "matun4645-gmail.com.Flowgement";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44D335B5218EC2770080ED32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90AD768266BA210E3E6AB9E8 /* Pods-FlowgementUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D762BQ98UP;
+				INFOPLIST_FILE = FlowgementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "matun4645-gmail.com.FlowgementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flowgement;
+			};
+			name = Debug;
+		};
+		44D335B6218EC2770080ED32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CF976FE043B79ED0E9954B /* Pods-FlowgementUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D762BQ98UP;
+				INFOPLIST_FILE = FlowgementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "matun4645-gmail.com.FlowgementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flowgement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44D3358C218EC2750080ED32 /* Build configuration list for PBXProject "Flowgement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D335AF218EC2770080ED32 /* Debug */,
+				44D335B0218EC2770080ED32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D335B1218EC2770080ED32 /* Build configuration list for PBXNativeTarget "Flowgement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D335B2218EC2770080ED32 /* Debug */,
+				44D335B3218EC2770080ED32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D335B4218EC2770080ED32 /* Build configuration list for PBXNativeTarget "FlowgementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D335B5218EC2770080ED32 /* Debug */,
+				44D335B6218EC2770080ED32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44D3359B218EC2750080ED32 /* Flowgement.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44D3359C218EC2750080ED32 /* Flowgement.xcdatamodel */,
+			);
+			currentVersion = 44D3359C218EC2750080ED32 /* Flowgement.xcdatamodel */;
+			path = Flowgement.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44D33589218EC2750080ED32 /* Project object */;
+}
