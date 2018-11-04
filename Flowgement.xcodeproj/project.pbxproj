@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		07F79092035448BE87C87312 /* Pods_Flowgement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8371C7303863533C7B4AA3C2 /* Pods_Flowgement.framework */; };
+		441031F4218EEB8D00FEE4D6 /* TargetTableVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441031F3218EEB8D00FEE4D6 /* TargetTableVC.storyboard */; };
+		441031F6218EEB9500FEE4D6 /* TargetTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441031F5218EEB9500FEE4D6 /* TargetTableVC.swift */; };
 		449D20E4218ED78200120C6F /* test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D20E3218ED78200120C6F /* test1ViewController.swift */; };
 		449D20E6218ED7C600120C6F /* test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D20E5218ED7C600120C6F /* test2ViewController.swift */; };
 		449D20E8218ED7D300120C6F /* test3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D20E7218ED7D300120C6F /* test3ViewController.swift */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		38AB3CEDB69D316223DEF507 /* Pods_FlowgementUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowgementUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		441031F3218EEB8D00FEE4D6 /* TargetTableVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TargetTableVC.storyboard; sourceTree = "<group>"; };
+		441031F5218EEB9500FEE4D6 /* TargetTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetTableVC.swift; sourceTree = "<group>"; };
 		449D20E3218ED78200120C6F /* test1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1ViewController.swift; sourceTree = "<group>"; };
 		449D20E5218ED7C600120C6F /* test2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2ViewController.swift; sourceTree = "<group>"; };
 		449D20E7218ED7D300120C6F /* test3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test3ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 		449D20DF218ED3D900120C6F /* target */ = {
 			isa = PBXGroup;
 			children = (
+				441031F3218EEB8D00FEE4D6 /* TargetTableVC.storyboard */,
+				441031F5218EEB9500FEE4D6 /* TargetTableVC.swift */,
 				449D20E7218ED7D300120C6F /* test3ViewController.swift */,
 			);
 			path = target;
@@ -284,6 +290,7 @@
 				44D335A2218EC2770080ED32 /* LaunchScreen.storyboard in Resources */,
 				44D3359F218EC2770080ED32 /* Assets.xcassets in Resources */,
 				44D3359A218EC2750080ED32 /* Main.storyboard in Resources */,
+				441031F4218EEB8D00FEE4D6 /* TargetTableVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +387,7 @@
 				449D20E6218ED7C600120C6F /* test2ViewController.swift in Sources */,
 				44D3359D218EC2750080ED32 /* Flowgement.xcdatamodeld in Sources */,
 				44D33597218EC2750080ED32 /* ViewController.swift in Sources */,
+				441031F6218EEB9500FEE4D6 /* TargetTableVC.swift in Sources */,
 				44D33595218EC2750080ED32 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
