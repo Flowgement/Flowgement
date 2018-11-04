@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		07F79092035448BE87C87312 /* Pods_Flowgement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8371C7303863533C7B4AA3C2 /* Pods_Flowgement.framework */; };
+		449D20E4218ED78200120C6F /* test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D20E3218ED78200120C6F /* test1ViewController.swift */; };
+		449D20E6218ED7C600120C6F /* test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D20E5218ED7C600120C6F /* test2ViewController.swift */; };
+		449D20E8218ED7D300120C6F /* test3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D20E7218ED7D300120C6F /* test3ViewController.swift */; };
+		449D20EA218ED7E100120C6F /* test4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D20E9218ED7E100120C6F /* test4ViewController.swift */; };
+		449D20EC218ED7EE00120C6F /* test5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D20EB218ED7EE00120C6F /* test5ViewController.swift */; };
+		449D20EE218ED80E00120C6F /* test6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D20ED218ED80E00120C6F /* test6ViewController.swift */; };
 		44D33595218EC2750080ED32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D33594218EC2750080ED32 /* AppDelegate.swift */; };
 		44D33597218EC2750080ED32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D33596218EC2750080ED32 /* ViewController.swift */; };
 		44D3359A218EC2750080ED32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D33598218EC2750080ED32 /* Main.storyboard */; };
@@ -30,6 +36,12 @@
 
 /* Begin PBXFileReference section */
 		38AB3CEDB69D316223DEF507 /* Pods_FlowgementUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowgementUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449D20E3218ED78200120C6F /* test1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1ViewController.swift; sourceTree = "<group>"; };
+		449D20E5218ED7C600120C6F /* test2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2ViewController.swift; sourceTree = "<group>"; };
+		449D20E7218ED7D300120C6F /* test3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test3ViewController.swift; sourceTree = "<group>"; };
+		449D20E9218ED7E100120C6F /* test4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test4ViewController.swift; sourceTree = "<group>"; };
+		449D20EB218ED7EE00120C6F /* test5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test5ViewController.swift; sourceTree = "<group>"; };
+		449D20ED218ED80E00120C6F /* test6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test6ViewController.swift; sourceTree = "<group>"; };
 		44D33591218EC2750080ED32 /* Flowgement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flowgement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D33594218EC2750080ED32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44D33596218EC2750080ED32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +83,7 @@
 		449D20DD218ED2EC00120C6F /* First_contact */ = {
 			isa = PBXGroup;
 			children = (
+				449D20E3218ED78200120C6F /* test1ViewController.swift */,
 			);
 			path = First_contact;
 			sourceTree = "<group>";
@@ -78,6 +91,7 @@
 		449D20DE218ED33E00120C6F /* budget */ = {
 			isa = PBXGroup;
 			children = (
+				449D20E5218ED7C600120C6F /* test2ViewController.swift */,
 			);
 			path = budget;
 			sourceTree = "<group>";
@@ -85,6 +99,7 @@
 		449D20DF218ED3D900120C6F /* target */ = {
 			isa = PBXGroup;
 			children = (
+				449D20E7218ED7D300120C6F /* test3ViewController.swift */,
 			);
 			path = target;
 			sourceTree = "<group>";
@@ -92,6 +107,7 @@
 		449D20E0218ED40400120C6F /* imput */ = {
 			isa = PBXGroup;
 			children = (
+				449D20E9218ED7E100120C6F /* test4ViewController.swift */,
 			);
 			path = imput;
 			sourceTree = "<group>";
@@ -99,6 +115,7 @@
 		449D20E1218ED40D00120C6F /* calender */ = {
 			isa = PBXGroup;
 			children = (
+				449D20EB218ED7EE00120C6F /* test5ViewController.swift */,
 			);
 			path = calender;
 			sourceTree = "<group>";
@@ -106,6 +123,7 @@
 		449D20E2218ED41B00120C6F /* setting */ = {
 			isa = PBXGroup;
 			children = (
+				449D20ED218ED80E00120C6F /* test6ViewController.swift */,
 			);
 			path = setting;
 			sourceTree = "<group>";
@@ -354,6 +372,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449D20EC218ED7EE00120C6F /* test5ViewController.swift in Sources */,
+				449D20E8218ED7D300120C6F /* test3ViewController.swift in Sources */,
+				449D20EE218ED80E00120C6F /* test6ViewController.swift in Sources */,
+				449D20EA218ED7E100120C6F /* test4ViewController.swift in Sources */,
+				449D20E4218ED78200120C6F /* test1ViewController.swift in Sources */,
+				449D20E6218ED7C600120C6F /* test2ViewController.swift in Sources */,
 				44D3359D218EC2750080ED32 /* Flowgement.xcdatamodeld in Sources */,
 				44D33597218EC2750080ED32 /* ViewController.swift in Sources */,
 				44D33595218EC2750080ED32 /* AppDelegate.swift in Sources */,
