@@ -9,7 +9,8 @@
 import UIKit
 
 class TargetTableVC: UIViewController {
-
+    @IBOutlet weak var button: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
