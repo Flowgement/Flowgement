@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A6C29FC8A67EDCD434C8AEAB8D989A6A"
+               BlueprintIdentifier = "2DD70A9F3E23B1B488BFF27E474383A8"
                BuildableName = "Pods_Flowgement.framework"
                BlueprintName = "Pods-Flowgement"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A6C29FC8A67EDCD434C8AEAB8D989A6A"
+            BlueprintIdentifier = "2DD70A9F3E23B1B488BFF27E474383A8"
             BuildableName = "Pods_Flowgement.framework"
             BlueprintName = "Pods-Flowgement"
             ReferencedContainer = "container:Pods.xcodeproj">
