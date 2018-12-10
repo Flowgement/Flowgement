@@ -1,14 +1,14 @@
 //
-//  test6ViewController.swift
+//  TargetMainViewController.swift
 //  Flowgement
 //
-//  Created by mat4645 on 2018/11/04.
+//  Created by mat4645 on 2018/11/24.
 //  Copyright © 2018年 MAT0622. All rights reserved.
-//  頑張るぞ！20181104
+//
 
 import UIKit
 
-class test6ViewController: UIViewController {
+class TargetMainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
