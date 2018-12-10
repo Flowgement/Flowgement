@@ -7,6 +7,9 @@ target 'Flowgement' do
 
   # Pods for Flowgement
   pod 'Firebase/Core'
+  pod 'FlexibleSteppedProgressBar'
+
+
 
   target 'FlowgementUITests' do
     inherit! :search_paths

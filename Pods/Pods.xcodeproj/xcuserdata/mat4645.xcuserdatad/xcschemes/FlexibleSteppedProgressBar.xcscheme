@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36152A6B57F139012F07891BF6AE18C8"
-               BlueprintName = "RMStepsController"
+               BlueprintIdentifier = "E9DF909D51C2407AE914F68374FD4751"
+               BlueprintName = "FlexibleSteppedProgressBar"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "RMStepsController.framework">
+               BuildableName = "FlexibleSteppedProgressBar.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

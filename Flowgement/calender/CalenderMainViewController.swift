@@ -1,16 +1,15 @@
 //
-//  TargetTableVC.swift
+//  CalenderMainViewController.swift
 //  Flowgement
 //
-//  Created by mat4645 on 2018/11/04.
+//  Created by mat4645 on 2018/11/24.
 //  Copyright © 2018年 MAT0622. All rights reserved.
 //
 
 import UIKit
 
-class TargetTableVC: UIViewController {
-    @IBOutlet weak var button: UIButton!
-    
+class CalenderMainViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
