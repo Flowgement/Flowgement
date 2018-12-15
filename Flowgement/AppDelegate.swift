@@ -17,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //ナビゲーションアイテムの色を変更
+        UINavigationBar.appearance().tintColor = UIColor(red: 163/255, green: 188/255, blue: 226/255, alpha: 1.0)
+        //ナビゲーションバーの背景を変更
+        UINavigationBar.appearance().barTintColor = UIColor(red: 66/255, green: 74/255, blue: 93/255, alpha: 1.0)
+        //ナビゲーションのタイトル文字列の色を変更
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor(red: 163/255, green: 188/255, blue: 226/255, alpha: 1.0)]
         
         return true
     }
