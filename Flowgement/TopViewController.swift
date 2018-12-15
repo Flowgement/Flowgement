@@ -11,7 +11,7 @@ import UIKit
 class TopViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         //選択したアイコンの色
         UITabBar.appearance().tintColor = UIColor(red: 163/255, green: 188/255, blue: 226/255, alpha: 1.0)
 
