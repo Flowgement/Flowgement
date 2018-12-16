@@ -51,14 +51,12 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
-  - RAMAnimatedTabBarController (4.0.1)
 
 DEPENDENCIES:
   - CalculateCalendarLogic
   - Firebase/Core
   - FlexibleSteppedProgressBar
   - FSCalendar
-  - RAMAnimatedTabBarController
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -72,7 +70,6 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - nanopb
-    - RAMAnimatedTabBarController
 
 SPEC CHECKSUMS:
   CalculateCalendarLogic: d7b6bf4ed6c0c21937efb7323c67d09cdb12a1ad
@@ -85,8 +82,7 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 5029d78f2b438bd30ffb44e6c558b57c21622727
   GoogleUtilities: abb092d2c12e817fa3e0e7b274987dd72fb86ec3
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
-  RAMAnimatedTabBarController: 677d6f7ec7e88b1089486f4db49b0a5067e8ad1c
 
-PODFILE CHECKSUM: c45e297cfafa3fd87e7b547db89b7d3305a772f3
+PODFILE CHECKSUM: ff7ff0a7a60188da5feb373e7bfc0a4fe127c334
 
 COCOAPODS: 1.5.0
