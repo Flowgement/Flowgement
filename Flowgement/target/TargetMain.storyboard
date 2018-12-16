@@ -19,7 +19,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tnE-Ed-wxZ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="目標" image="Target" selectedImage="Target" id="1wD-JB-Z2U"/>
+                    <tabBarItem key="tabBarItem" title="目標" image="Target" selectedImage="Target" id="1wD-JB-Z2U" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController"/>
                     <navigationItem key="navigationItem" title="目標" id="2yK-YR-FEf"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>

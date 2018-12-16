@@ -19,7 +19,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="knS-B4-MTR"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="残高" image="saifu" selectedImage="saifu" id="7tc-XG-xNi"/>
+                    <tabBarItem key="tabBarItem" title="残高" image="saifu" selectedImage="saifu" id="7tc-XG-xNi" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController"/>
                     <navigationItem key="navigationItem" title="残高" id="lqR-N7-Daa"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>

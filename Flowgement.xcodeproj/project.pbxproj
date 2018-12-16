@@ -20,7 +20,6 @@
 		445E713B21A92B9C00F90999 /* SettingMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445E713A21A92B9C00F90999 /* SettingMainViewController.swift */; };
 		449D20E4218ED78200120C6F /* test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D20E3218ED78200120C6F /* test1ViewController.swift */; };
 		44D33595218EC2750080ED32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D33594218EC2750080ED32 /* AppDelegate.swift */; };
-		44D33597218EC2750080ED32 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D33596218EC2750080ED32 /* TopViewController.swift */; };
 		44D3359A218EC2750080ED32 /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D33598218EC2750080ED32 /* Top.storyboard */; };
 		44D3359D218EC2750080ED32 /* Flowgement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44D3359B218EC2750080ED32 /* Flowgement.xcdatamodeld */; };
 		44D3359F218EC2770080ED32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D3359E218EC2770080ED32 /* Assets.xcassets */; };
@@ -54,7 +53,6 @@
 		449D20E3218ED78200120C6F /* test1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1ViewController.swift; sourceTree = "<group>"; };
 		44D33591218EC2750080ED32 /* Flowgement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flowgement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D33594218EC2750080ED32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44D33596218EC2750080ED32 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		44D33599218EC2750080ED32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Top.storyboard; sourceTree = "<group>"; };
 		44D3359C218EC2750080ED32 /* Flowgement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flowgement.xcdatamodel; sourceTree = "<group>"; };
 		44D3359E218EC2770080ED32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 			isa = PBXGroup;
 			children = (
 				44D33594218EC2750080ED32 /* AppDelegate.swift */,
-				44D33596218EC2750080ED32 /* TopViewController.swift */,
 				44D33598218EC2750080ED32 /* Top.storyboard */,
 				44D3359E218EC2770080ED32 /* Assets.xcassets */,
 				449D20DD218ED2EC00120C6F /* tutorial */,
@@ -370,16 +367,22 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Flowgement/Pods-Flowgement-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CalculateCalendarLogic/CalculateCalendarLogic.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/FlexibleSteppedProgressBar/FlexibleSteppedProgressBar.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalculateCalendarLogic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlexibleSteppedProgressBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +402,6 @@
 				445E713121A92B3F00F90999 /* TargetMainViewController.swift in Sources */,
 				449D20E4218ED78200120C6F /* test1ViewController.swift in Sources */,
 				44D3359D218EC2750080ED32 /* Flowgement.xcdatamodeld in Sources */,
-				44D33597218EC2750080ED32 /* TopViewController.swift in Sources */,
 				44D33595218EC2750080ED32 /* AppDelegate.swift in Sources */,
 				445E712D21A92A7200F90999 /* BudgetMainViewController.swift in Sources */,
 				445E713B21A92B9C00F90999 /* SettingMainViewController.swift in Sources */,

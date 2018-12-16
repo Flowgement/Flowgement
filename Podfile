@@ -8,7 +8,9 @@ target 'Flowgement' do
   # Pods for Flowgement
   pod 'Firebase/Core'
   pod 'FlexibleSteppedProgressBar'
-
+  pod 'FSCalendar'
+  pod 'CalculateCalendarLogic' 
+  pod 'RAMAnimatedTabBarController'
 
 
   target 'FlowgementUITests' do

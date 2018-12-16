@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,7 +13,13 @@
         <scene sceneID="ny6-8u-GcI">
             <objects>
                 <viewController id="fhq-Ps-cmc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="入力" image="Imput" selectedImage="Imput" id="VLO-v1-f1U">
+                    <view key="view" contentMode="scaleToFill" id="rt9-CI-bFm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="uda-5w-sMh"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="入力" image="Imput" selectedImage="Imput" id="VLO-v1-f1U" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
                         <color key="badgeColor" name="textColor" catalog="System" colorSpace="catalog"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" title="入力" id="TIv-la-Jbu"/>
