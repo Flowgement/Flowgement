@@ -10,7 +10,6 @@ target 'Flowgement' do
   pod 'FlexibleSteppedProgressBar'
   pod 'FSCalendar'
   pod 'CalculateCalendarLogic' 
-  pod 'RAMAnimatedTabBarController'
 
 
   target 'FlowgementUITests' do
