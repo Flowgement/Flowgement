@@ -19,7 +19,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="sx6-HW-zUx"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="設定" image="setting" selectedImage="setting" id="828-ea-uy4"/>
+                    <tabBarItem key="tabBarItem" title="設定" image="setting" selectedImage="setting" id="828-ea-uy4" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController"/>
                     <navigationItem key="navigationItem" title="設定" id="f90-23-gJD"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>

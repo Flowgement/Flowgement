@@ -1,4 +1,5 @@
 PODS:
+  - CalculateCalendarLogic (0.2.0)
   - Firebase/Core (5.11.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (= 5.3.0)
@@ -20,6 +21,7 @@ PODS:
     - GoogleUtilities/Environment (~> 5.3)
     - GoogleUtilities/UserDefaults (~> 5.3)
   - FlexibleSteppedProgressBar (0.5.0)
+  - FSCalendar (2.8.0)
   - GoogleAppMeasurement (5.3.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
     - GoogleUtilities/MethodSwizzler (~> 5.2)
@@ -49,32 +51,42 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - RAMAnimatedTabBarController (4.0.1)
 
 DEPENDENCIES:
+  - CalculateCalendarLogic
   - Firebase/Core
   - FlexibleSteppedProgressBar
+  - FSCalendar
+  - RAMAnimatedTabBarController
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - CalculateCalendarLogic
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
     - FirebaseInstanceID
     - FlexibleSteppedProgressBar
+    - FSCalendar
     - GoogleAppMeasurement
     - GoogleUtilities
     - nanopb
+    - RAMAnimatedTabBarController
 
 SPEC CHECKSUMS:
+  CalculateCalendarLogic: d7b6bf4ed6c0c21937efb7323c67d09cdb12a1ad
   Firebase: b48f9e653da971ecce5b8c749684bc8bb2d26bd3
   FirebaseAnalytics: 63202d2665de4e6adcbdce189135255d8b5962ba
   FirebaseCore: d16552f06821489ce1affe2e5e3e5593402ddfe3
   FirebaseInstanceID: e2fa4cb35ef5558c200f7f0ad8a53e212215f93e
   FlexibleSteppedProgressBar: a8894ca4913e34ea2c694be09a7d4d6b1f1bdc74
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
   GoogleAppMeasurement: 5029d78f2b438bd30ffb44e6c558b57c21622727
   GoogleUtilities: abb092d2c12e817fa3e0e7b274987dd72fb86ec3
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  RAMAnimatedTabBarController: 677d6f7ec7e88b1089486f4db49b0a5067e8ad1c
 
-PODFILE CHECKSUM: febd3fe5798186aef398f0e4b772515c605db8bf
+PODFILE CHECKSUM: c45e297cfafa3fd87e7b547db89b7d3305a772f3
 
 COCOAPODS: 1.5.0

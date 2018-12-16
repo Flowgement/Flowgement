@@ -22,8 +22,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //ナビゲーションバーの背景を変更
         UINavigationBar.appearance().barTintColor = UIColor(red: 66/255, green: 74/255, blue: 93/255, alpha: 1.0)
         //ナビゲーションのタイトル文字列の色を変更
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor(red: 163/255, green: 188/255, blue: 226/255, alpha: 1.0)]
-        
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
+        //タブバーの選択したアイコンの色
+        UITabBar.appearance().tintColor = UIColor(red: 163/255, green: 188/255, blue: 226/255, alpha: 1.0)
+        //タブバーの背景の色
+        UITabBar.appearance().barTintColor = UIColor(red: 66/255, green: 74/255, blue: 93/255, alpha: 1.0)
+        sleep(2)
         return true
     }
 
